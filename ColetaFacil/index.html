@@ -4,28 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=chrome">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
     <title>Home</title>
 </head>
 <body>
    <header>
             <nav>
-                <a class=logo href="/"><img src="img/logo.png" alt="logotipo"></a>
-                <div class="responsive-nav">
-                    <div class="line1"></div>
-                    <div class="line2"></div>
-                    <div class="line3"></div>
+                <span class="logo"><img src="img/logo.png" alt="logotipo"></span>
+                <i class="fa-solid fa-bars menu-hamburguer" onclick="abrirMenu()"></i>
+                <div class="list-row">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Contato</a></li>
+                        <li><a href="#">Duvidas</a></li>
+                        <li><a href="#">Sobre</a></li>
+                    </ul>
                 </div>
-                <ul class="nav-list">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About Us</a></li>
-                    <li><a href="">Work</a></li>
-                    <li><a href="">App Store</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
             </nav>
     </header>
 
+    <script src="./script.js"></script>
 </body>
 </html>
